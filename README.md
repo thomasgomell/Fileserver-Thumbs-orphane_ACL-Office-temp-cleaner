@@ -9,9 +9,7 @@ A Go application that helps maintain Windows file systems by performing three ma
 
 - **Cleanup of Unwanted Files**
   - Removes common temporary files like:
-    - Thumbs.db
-    - Office temporary files (~$*.docx, ~$*.xlsx, etc.)
-    - General temporary files (~*.tmp)
+    - "thumbs.db", "~$*.docx", "~$*.doc", "~$*.xlsx", "~$*.xls", "~$*.pptx", "~$*.ppt", "~*.tmp"
   - Parallel processing for better performance
   - Detailed logging of all operations
 
